@@ -1,0 +1,42 @@
+#outer{
+    background-color: black;
+    
+    width:100%;
+    height:500px;
+}
+#inner1{
+    background-color: aquamarine;
+    margin-left:9%;
+    width:11cm;
+    height:10cm
+    float:left;
+}
+#inner2{
+    background-color: aquamarine;
+    margin-left:9%;
+    width:11cm;
+    height:10cm;
+    float:left;
+}
+#inner3{
+    background-color: aquamarine;
+    margin-left:9%;
+    width:11cm;
+    height:10cm;
+    float:left;
+
+}
+#inner4{
+    background-color: aquamarine;
+    margin-left:9%;
+    width:11cm;
+    height:10cm
+    float:left;
+}
+//const hamburgerMenu = document.getElementById("hamburger-menu");
+//const menu = document.getElementById("menu");
+
+//hamburgerMenu.addEventListener("click", function () {
+  //hamburgerMenu.classList.toggle("open");
+  //menu.classList.toggle("open");
+//});/

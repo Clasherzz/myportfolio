@@ -1,0 +1,111 @@
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+#hamburger-menu {
+  display: none;
+  cursor: pointer;
+}
+
+#menu {
+  display: flex;
+}
+
+#menu li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+#menu a {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  #menu {
+    display: none;
+    color: aliceblue;
+  }
+  
+  #hamburger-menu {
+    display: block;
+  }
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+#hamburger-menu.open .bar1 {
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+#hamburger-menu.open .bar2 {
+  opacity: 0;
+}
+
+#hamburger-menu.open .bar3 {
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
+  padding: 20px;
+  background-color: lightgray;
+  transition: all 0.3s ease-in-out;
+}
+
+.box:hover {
+  background-color: lightblue;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+body {
+	background-image: url("bck.jpg");
+	background-size: cover;
+	background-position: center;
+}
+#v{
+  color: aliceblue;
+  font-family: sans-serif;
+}
+.about{
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  border: 16px  solid aliceblue;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 2%;
+  margin-right: 7%;
+  margin-left: 7%;
+  padding-bottom: 2%;
+  font-size: 166%;
+  
+}
+
+
+@keyframes example {
+  from {background-color: aliceblue;}
+  to{background-color: aquamarine;}
+  
+}
+.bottom{
+  animation-name: example;
+  animation-iteration-count: 2;
+}
